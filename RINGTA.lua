@@ -22,19 +22,43 @@ Window:EditOpenButton({
 })
 
 local Tabs = {
-    Main = Window:Tab({ Title = "TP RARE HORSES", Icon = "star" }),
-    Other = Window:Tab({ Title = "BYPASS AC", Icon = "tool" }),
-    Towns = Window:Tab({ Title = "DUPE BONDS", Icon = "map" }),
+    Main = Window:Tab({ Title = "Main", Icon = "star" }),
+    Other = Window:Tab({ Title = "Bypass Anticheat", Icon = "tool" }),
+    Towns = Window:Tab({ Title = "Auto Bonds", Icon = "map" }),
     Bypass = Window:Tab({ Title = "GET EVERY CLASS", Icon = "rocket" }),
     Features = Window:Tab({ Title = "INF BONDS 1 CLICK", Icon = "bolt" }),
-    Transformation = Window:Tab({ Title = "Transformation", Icon = "zap" }),
+    Transformation = Window:Tab({ Title = "Visual", Icon = "zap" }),
     Credits = Window:Tab({ Title = "CREDITS", Icon = "award" }),
     BringItems = Window:Tab({ Title = "Bring Items", Icon = "package" }),
 }
 
 -- Only button, in Main tab, does nothing
 Tabs.Main:Button({
-    Title = "TP TO DEATH HORSE",
+    Title = "Tp To Famine Horse",
+    Callback = function()
+        -- Do nothing
+    end,
+})
+Tabs.Main:Button({
+    Title = "Auto Bond",
+    Callback = function()
+        -- Do nothing
+    end,
+})
+Tabs.Main:Button({
+    Title = "Bring All Items",
+    Callback = function()
+        -- Do nothing
+    end,
+})
+Tabs.Main:Button({
+    Title = "Dupe Bonds",
+    Callback = function()
+        -- Do nothing
+    end,
+})
+Tabs.Main:Button({
+    Title = "Instant Win",
     Callback = function()
         -- Do nothing
     end,
