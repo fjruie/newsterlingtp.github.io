@@ -34,7 +34,7 @@ local Tabs = {
 
 -- Only button, in Main tab, does nothing
 Tabs.Main:Button({
-    Title = "Tp To War Horse",
+    Title = "TP TO DEATH HORSE",
     Callback = function()
         -- Do nothing
     end,
