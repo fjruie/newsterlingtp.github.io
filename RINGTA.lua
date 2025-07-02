@@ -22,11 +22,11 @@ Window:EditOpenButton({
 })
 
 local Tabs = {
-    Main = Window:Tab({ Title = "Main", Icon = "star" }),
+    Main = Window:Tab({ Title = "New Dupe Items", Icon = "star" }),
     Other = Window:Tab({ Title = "Bypass Anticheat", Icon = "tool" }),
     Towns = Window:Tab({ Title = "Auto Bonds", Icon = "map" }),
-    Bypass = Window:Tab({ Title = "GET EVERY CLASS", Icon = "rocket" }),
-    Features = Window:Tab({ Title = "INF BONDS 1 CLICK", Icon = "bolt" }),
+    Bypass = Window:Tab({ Title = "Features", Icon = "rocket" }),
+    Features = Window:Tab({ Title = "Ban Anyone", Icon = "bolt" }),
     Transformation = Window:Tab({ Title = "Visual", Icon = "zap" }),
     Credits = Window:Tab({ Title = "CREDITS", Icon = "award" }),
     BringItems = Window:Tab({ Title = "Bring Items", Icon = "package" }),
@@ -34,31 +34,31 @@ local Tabs = {
 
 -- Only button, in Main tab, does nothing
 Tabs.Main:Button({
-    Title = "Tp To Famine Horse",
-    Callback = function()
-        -- Do nothing
-    end,
-})
-Tabs.Main:Button({
-    Title = "Auto Bond",
-    Callback = function()
-        -- Do nothing
-    end,
-})
-Tabs.Main:Button({
-    Title = "Bring All Items",
-    Callback = function()
-        -- Do nothing
-    end,
-})
-Tabs.Main:Button({
     Title = "Dupe Bonds",
     Callback = function()
         -- Do nothing
     end,
 })
 Tabs.Main:Button({
-    Title = "Instant Win",
+    Title = "Dupe Gold Bars",
+    Callback = function()
+        -- Do nothing
+    end,
+})
+Tabs.Main:Button({
+    Title = "Dupe Coal",
+    Callback = function()
+        -- Do nothing
+    end,
+})
+Tabs.Main:Button({
+    Title = "Dupe Guns",
+    Callback = function()
+        -- Do nothing
+    end,
+})
+Tabs.Main:Button({
+    Title = "Dupe Vampire Knife",
     Callback = function()
         -- Do nothing
     end,
